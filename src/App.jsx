@@ -1,3 +1,4 @@
+import { BsGithub } from "react-icons/bs";
 import { Route, Routes } from "react-router-dom";
 import { Header } from "./components";
 import { About, Projects } from "./pages";
@@ -14,7 +15,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
-      <footer className="p-2 text-center">
+      <footer className="container py-2 flex justify-between items-center text-center md:text-left">
         <span className="text-main-400/50 font-source3 select-none">
           <a
             href="https://creativecommons.org/licenses/by-nd/2.0/"
@@ -23,6 +24,9 @@ function App() {
           </a>{" "}
           {year} &copy; Hibatillah Hasanin
         </span>
+        <a href="https://github.com/hibatillah/hibatillah.vercel.app">
+          <BsGithub size={20} className="text-main-400 hover:text-main-300" />
+        </a>
       </footer>
     </>
   );
