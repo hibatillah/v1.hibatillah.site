@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import { About, Projects } from "./pages";
 import { Header } from "./components";
+import { About, Projects } from "./pages";
 
 function App() {
   const year = new Date().getFullYear();
@@ -16,7 +16,12 @@ function App() {
       </main>
       <footer className="p-2 text-center">
         <span className="text-main-400/50 font-source3 select-none">
-          {year} &copy; Hibatillah. All rights reserved
+          <a
+            href="https://creativecommons.org/licenses/by-nd/2.0/"
+            className="hover:underline underline-offset-2">
+            CC BY-ND 2.0
+          </a>{" "}
+          {year} &copy; Hibatillah Hasanin
         </span>
       </footer>
     </>

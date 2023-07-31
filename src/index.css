@@ -12,7 +12,7 @@
     src: url("./assets/fonts/Poppins-Variable.ttf");
   }
   @font-face {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: "Open Sans", sans-serif;
     src: url("./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
   }
 }
@@ -31,7 +31,10 @@
     @apply text-xl font-medium text-main-100 font-poppins;
   }
   a.link {
-    @apply text-main-300 underline underline-offset-2 decoration-main-400 hover:text-white select-all;
+    @apply w-fit text-main-300 underline underline-offset-2 decoration-main-500 hover:text-white hover:decoration-main-400 ;
+  }
+  img {
+    image-rendering: crisp-edges;
   }
 }
 
@@ -40,6 +43,9 @@
     @apply px-4 py-1 rounded-full border border-main-400/50 text-xs text-main-300 font-medium font-openSans select-all;
   }
   .card {
-    @apply relative z-0 before:content-[''] before:absolute before:-inset-4 before:rounded-xl before:bg-main-800 before:-z-10 md:before:-inset-5
+    @apply relative z-0 before:content-[''] before:absolute before:-inset-4 before:rounded-xl before:bg-main-800 before:-z-10 md:before:-inset-5;
+  }
+  .socials-link {
+    @apply flex items-center gap-1 w-fit text-main-300 hover:text-white before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-px before:bg-main-500 before:hover:bg-main-300 before:-z-10;
   }
 }
