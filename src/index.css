@@ -36,6 +36,12 @@
   img {
     image-rendering: crisp-edges;
   }
+  *::-webkit-scrollbar {
+    @apply w-0 md:w-2.5 md:pr-1 bg-inherit;
+  }
+  *::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-main-500;
+  }
 }
 
 @layer components {
