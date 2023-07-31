@@ -1,6 +1,6 @@
-## Hibatillah website
+## Hibatillah personal website
 
 Tech stack:
-- react v18.2.0
-- vite v4.4.5
-- tailwindcss v3.3.3
+- React v18.2.0
+- Vite v4.4.5
+- Tailwindcss v3.3.3
