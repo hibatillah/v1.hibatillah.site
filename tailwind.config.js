@@ -18,6 +18,7 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         source3: ["Source Sans 3", "sans-serif"],
+        openSans: ["Open Sans", "sans-serif"],
       },
       colors: {
         main: {
