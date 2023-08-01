@@ -1,22 +1,31 @@
 /* eslint-disable react/prop-types */
 import { motion as m } from "framer-motion";
-import { BsBehance, BsDribbble, BsGithub, BsSpotify } from "react-icons/bs";
+import {
+  BsBehance,
+  BsDribbble,
+  BsGithub,
+  BsSpotify,
+  BsDiscord,
+  BsInstagram,
+} from "react-icons/bs";
 import { FaFigma } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { SiLinkedin } from "react-icons/si";
-import { SlSocialInstagram } from "react-icons/sl";
+import { RxKeyboard } from "react-icons/rx";
 import { container, text } from "../components/animate";
 import { socials } from "../db";
 
 const icons = {
   email: <HiOutlineMail size={18} />,
-  instagram: <SlSocialInstagram size={14} />,
+  instagram: <BsInstagram size={14} />,
   linkedin: <SiLinkedin size={14} />,
   github: <BsGithub size={14} />,
   dribbble: <BsDribbble size={14} />,
   behance: <BsBehance size={16} />,
   figma: <FaFigma size={14} />,
   spotify: <BsSpotify size={14} />,
+  monkeytype: <RxKeyboard size={18} />,
+  discord: <BsDiscord size={16} />,
 };
 
 const Linkto = ({ title, to }) => {

@@ -27,7 +27,7 @@ const projects = [
     desc: "Monochrome minimalist portfolio with responsive and darkmode design.",
     tag: ["Portfolio", "Personal Web", "Dark Mode", "React JS", "TailwindCSS"],
     date: "June 5, 2023",
-    link: "https://hibatillah.vercel.app",
+    link: "https://hibatillah-monochromeportfolio.vercel.app",
     image: minimalistPortfolio,
   },
   {

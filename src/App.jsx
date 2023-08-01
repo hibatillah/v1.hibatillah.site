@@ -16,7 +16,7 @@ function App() {
         </Routes>
       </main>
       <footer className="container py-2.5 flex justify-between items-center text-center md:text-left">
-        <span className="text-main-400/50 font-source3 select-none">
+        <span className="text-sm md:text-base text-main-400/50 font-source3 select-none">
           <a
             href="https://creativecommons.org/licenses/by-nd/2.0/"
             className="hover:underline underline-offset-2">
