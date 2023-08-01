@@ -11,15 +11,11 @@
     font-family: "Poppins", sans-serif;
     src: url("./assets/fonts/Poppins-Variable.ttf");
   }
-  @font-face {
-    font-family: "Open Sans", sans-serif;
-    src: url("./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
-  }
 }
 
 @layer base {
   body {
-    @apply bg-main-900;
+    @apply bg-main-900 debug-screens;
   }
   p {
     @apply text-main-400 font-source3;
@@ -46,7 +42,7 @@
 
 @layer components {
   .tag {
-    @apply px-4 py-1 rounded-full border border-main-400/50 text-xs text-main-300 font-medium font-openSans select-all;
+    @apply px-4 py-1 rounded-full border border-main-400/50 text-xs text-main-300 font-medium font-source3 select-all;
   }
   .card {
     @apply relative z-0 before:content-[''] before:absolute before:-inset-4 before:rounded-xl before:bg-main-800 before:-z-10 md:before:-inset-5;

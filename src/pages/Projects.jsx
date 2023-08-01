@@ -5,7 +5,7 @@ import { projects } from "../db";
 
 const Projects = () => {
   return (
-    <>
+    <div className="2xl:px-20">
       <m.div
         variants={container}
         initial="hidden"
@@ -32,7 +32,7 @@ const Projects = () => {
           </li>
         ))}
       </m.ul>
-    </>
+    </div>
   );
 };
 

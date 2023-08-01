@@ -9,7 +9,7 @@ export default {
         DEFAULT: "1.5rem",
         md: "2.5rem",
         lg: "4.5rem",
-        '2xl': '8rem',
+        '2xl': '9rem',
       },
     },
     debugScreens: {
@@ -19,7 +19,6 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         source3: ["Source Sans 3", "sans-serif"],
-        openSans: ["Open Sans", "sans-serif"],
       },
       colors: {
         main: {

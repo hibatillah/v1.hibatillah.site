@@ -9,13 +9,13 @@ function App() {
   return (
     <>
       <Header />
-      <main className="container py-12 min-h-[calc(100vh-88.8px)]">
+      <main className="container py-12 min-h-[calc(100vh-92x)]">
         <Routes>
           <Route index element={<About />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
-      <footer className="container py-2 flex justify-between items-center text-center md:text-left">
+      <footer className="container py-2.5 flex justify-between items-center text-center md:text-left">
         <span className="text-main-400/50 font-source3 select-none">
           <a
             href="https://creativecommons.org/licenses/by-nd/2.0/"
@@ -24,7 +24,7 @@ function App() {
           </a>{" "}
           {year} &copy; Hibatillah Hasanin
         </span>
-        <a href="https://github.com/hibatillah/hibatillah.vercel.app">
+        <a href="https://github.com/hibatillah/hibatillah.site">
           <BsGithub size={20} className="text-main-400 hover:text-main-300" />
         </a>
       </footer>
