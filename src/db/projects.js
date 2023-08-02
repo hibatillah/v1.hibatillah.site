@@ -6,6 +6,13 @@ import {
   pinjamRuangan,
   rotte,
   webDesign,
+  jenisBerasWebp,
+  massbeatWebp,
+  minimalistPortfolioWebp,
+  modernPortfolioWebp,
+  pinjamRuanganWebp,
+  rotteWebp,
+  webDesignWebp
 } from "../assets/img/projects";
 
 const projects = [
@@ -21,6 +28,7 @@ const projects = [
     date: "July 14, 2023",
     link: "https://github.com/hibatillah/capstone-tim1",
     image: rotte,
+    webp: rotteWebp,
   },
   {
     title: "Monochrome Portfolio",
@@ -29,6 +37,7 @@ const projects = [
     date: "June 5, 2023",
     link: "https://hibatillah-monochromeportfolio.vercel.app",
     image: minimalistPortfolio,
+    webp: minimalistPortfolioWebp,
   },
   {
     title: "Sistem Informasi Peminjaman Ruangan Kelas",
@@ -43,6 +52,7 @@ const projects = [
     date: "June 4, 2023",
     link: "https://pinjamruangan.vercel.app",
     image: pinjamRuangan,
+    webp: pinjamRuanganWebp,
   },
   {
     title: "Modern Portfolio",
@@ -57,6 +67,7 @@ const projects = [
     date: "April 2023",
     link: "https://hibatillah-modernportfolio.vercel.app",
     image: modernPortfolio,
+    webp: modernPortfolioWebp,
   },
   {
     title: "Web Design Collection",
@@ -65,6 +76,7 @@ const projects = [
     date: "March 28, 2023",
     link: "https://github.com/hibatillah/web-design",
     image: webDesign,
+    webp: webDesignWebp,
   },
   {
     title: "MassBeat - Workout App and Trainer Consultation",
@@ -79,6 +91,7 @@ const projects = [
     date: "January 2023",
     link: "https://www.behance.net/gallery/162029955/MassBeat-Aplikasi-Workout-Dan-Konsultasi-Trainer",
     image: massbeat,
+    webp: massbeatWebp,
   },
   {
     title: "Web Identification of Rice Types based on Color",
@@ -93,6 +106,7 @@ const projects = [
     date: "January 2023",
     link: "https://hibatillah.github.io/ProjectPD/",
     image: jenisBeras,
+    webp: jenisBerasWebp,
   },
 ];
 

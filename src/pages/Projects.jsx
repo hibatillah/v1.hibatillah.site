@@ -28,6 +28,7 @@ const Projects = () => {
               desc={item.desc}
               tag={item.tag}
               link={item.link}
+              webp={item.webp}
             />
           </li>
         ))}

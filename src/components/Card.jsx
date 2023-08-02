@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
 import { motion as m } from "framer-motion";
 import { FiArrowUpRight } from "react-icons/fi";
+import Image from "react-image-webp";
 import { Link } from "react-router-dom";
 import { card } from "./animate";
 
-export const ProjectCard = ({ image, title, date, desc, tag, link }) => {
+export const ProjectCard = ({ image, webp, title, date, desc, tag, link }) => {
   return (
     <div className="flex-1 flex gap-16">
       <m.div
@@ -27,11 +28,12 @@ export const ProjectCard = ({ image, title, date, desc, tag, link }) => {
         <m.div
           variants={card}
           className="flex flex-col gap-4 hover:card cursor-pointer md:flex-auto md:flex-row md:justify-end md:items-center md:gap-6 lg:flex-auto lg:gap-8 group">
-          <img
+          <Image
             src={image}
+            webp={webp}
             alt={title}
             loading="eager"
-            className="w-full aspect-video object-cover bg-top rounded-lg bg-main-800 md:w-1/3 md:aspect-[4/3] lg:w-[30%] lg:aspect-[4/3] xl:aspect-video 2xl:w-1/3 pointer-events-none select-none brightness-[85%] group-hover:brightness-90"
+            className="card-img"
           />
           <div className="md:w-2/3 2xl:w-2/3">
             <p className="text-sm lg:hidden">{date}</p>
