@@ -45,6 +45,9 @@ const About = () => {
         animate="show"
         className="space-y-12 overflow-hidden xl:w-4/5">
         <div className="flex flex-col gap-1">
+          <m.div variants={text} className="w-12 h-12 p-1.5 mb-4 rounded-lg bg-main-600">
+            <div className="w-full h-full rounded-md bg-main-200" />
+          </m.div>
           <m.h1 variants={text}>M. Hibatillah Hasanin</m.h1>
           <m.p variants={text} className="mt-2">
             Hi {"i'm"} <Linkto to="instagram.com/hibat.illah" title="Habib" />,

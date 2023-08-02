@@ -14,16 +14,17 @@ const Header = () => {
         className="text-white font-semibold font-poppins">
         Habib
       </a>
-      <nav className="flex items-center gap-6 font-source3">
+      <nav className="flex items-center gap-8 font-source3">
         {menu.map(([item, path], index) => (
           <NavLink
             key={index}
             to={path}
             className={({ isActive }) =>
-              isActive
-                ? "text-main-300 relative z-0 before:content-[''] before:absolute before:-left-3 before:-right-3 before:-top-1 before:-bottom-2 before:rounded before:bg-main-800 before:-z-10"
-                : "text-main-400"
-            }>{item}
+              isActive ? "text-main-200 hover:text-white" : "text-main-400 hover:text-main-300"
+            }>
+            <div className="relative z-0 before:content-[''] before:absolute before:-left-4 before:-right-4 before:-top-1 before:-bottom-[6px] before:rounded-lg hover:before:bg-main-800 before:-z-10">
+              {item}
+            </div>
           </NavLink>
         ))}
       </nav>

@@ -1,7 +1,7 @@
-/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{js,jsx}", "./index.html"],
+
+module.exports = {
+  content: ["./src/**/*.{js,jsx}"],
   theme: {
     container: {
       center: true,
