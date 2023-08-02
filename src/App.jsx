@@ -1,5 +1,5 @@
 import { BsGithub } from "react-icons/bs";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Header } from "./components";
 import { About, Projects } from "./pages";
 
@@ -7,11 +7,11 @@ function App() {
   const year = new Date().getFullYear();
 
   return (
-    <BrowserRouter>
+    <>
       <Header />
       <main className="container py-12 min-h-[calc(100vh-92x)]">
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route index element={<About />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
@@ -28,7 +28,7 @@ function App() {
           <BsGithub size={20} className="text-main-400 hover:text-main-300" />
         </a>
       </footer>
-    </BrowserRouter>
+    </>
   );
 }
 

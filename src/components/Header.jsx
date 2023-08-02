@@ -23,8 +23,7 @@ const Header = () => {
               isActive
                 ? "text-main-300 relative z-0 before:content-[''] before:absolute before:-left-3 before:-right-3 before:-top-1 before:-bottom-2 before:rounded before:bg-main-800 before:-z-10"
                 : "text-main-400"
-            }>
-            <span className="">{item}</span>
+            }>{item}
           </NavLink>
         ))}
       </nav>
