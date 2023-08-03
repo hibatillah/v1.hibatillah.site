@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="container py-12 min-h-[calc(100vh-92x)]">
+      <main className="container py-12 min-h-[calc(100dvh-92x)]">
         <Routes>
           <Route index element={<About />} />
           <Route path="/projects" element={<Projects />} />

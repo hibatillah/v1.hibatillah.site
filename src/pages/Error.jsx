@@ -4,7 +4,7 @@ import { container, text } from "../components/animate";
 
 const Error = () => {
   return (
-    <div className="w-full min-h-[calc(100vh-188px)] grid place-items-center">
+    <div className="w-full min-h-[calc(100dvh-188px)] grid place-items-center">
       <m.div
         variants={container}
         initial="hidden"
