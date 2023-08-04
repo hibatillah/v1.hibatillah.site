@@ -9,7 +9,7 @@ module.exports = {
         DEFAULT: "1.5rem",
         md: "2.5rem",
         lg: "4.5rem",
-        '2xl': '9rem',
+        "2xl": "9rem",
       },
     },
     debugScreens: {
@@ -31,6 +31,7 @@ module.exports = {
           700: "#1f1f1f",
           800: "#1c1c1f",
           900: "#161618",
+          950: "#0F0F0F",
         },
       },
     },

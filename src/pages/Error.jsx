@@ -17,7 +17,7 @@ const Error = () => {
         <Link to="/">
           <m.button
             variants={text}
-            className="px-4 py-2 rounded-md bg-main-600 text-main-100">
+            className="px-4 py-2 rounded-md bg-main-700 text-main-100 hover:bg-main-600">
             Back to home
           </m.button>
         </Link>
