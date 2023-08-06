@@ -53,15 +53,15 @@ const AboutContent = () => {
       </m.p>
       {/* second */}
       <m.p variants={text}>
-        UI Designer • Frontend Developer who enjoys life in{" "}
+        UI Designer • Frontend Developer in{" "}
         <Linkto
-          to="www.google.com/search?q=pekanbaru"
+          to="www.google.com/search?q=pekanbaru+indonesia"
           title="Pekanbaru, Indonesia"
         />
         . Interested, passionate and knowledgeable in web development and love
         to design. Currently focus on exploring{" "}
         <Linkto to="nextjs.org" title="Nextjs" />, styling components using{" "}
-        <Linkto to="tailwindcss.com" title="Tailwindcss" /> and creating various
+        <Linkto to="tailwindcss.com" title="Tailwindcss" /> and creating 
         UI Design in <Linkto to="figma.com/@hibatillah" title="Figma" />.
       </m.p>
       {/* third */}
