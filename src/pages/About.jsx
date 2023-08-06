@@ -53,7 +53,7 @@ const AboutContent = () => {
       </m.p>
       {/* second */}
       <m.p variants={text}>
-        UI Designer and Frontend Developer who enjoys life in{" "}
+        UI Designer • Frontend Developer who enjoys life in{" "}
         <Linkto
           to="www.google.com/search?q=pekanbaru"
           title="Pekanbaru, Indonesia"
@@ -94,7 +94,7 @@ const AboutContent = () => {
 
 const About = () => {
   return (
-    <div className="w-full min-h-[calc(100dvh-188px)] grid place-items-center md:px-16 lg:px-20">
+    <div className="w-full min-h-[calc(100dvh-188px)] grid place-items-center lg:px-16">
       <m.div
         variants={container}
         initial="hidden"

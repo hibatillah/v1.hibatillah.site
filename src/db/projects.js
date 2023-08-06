@@ -1,19 +1,60 @@
 import {
   jenisBeras,
-  massbeat,
-  minimalistPortfolio,
-  modernPortfolio,
-  pinjamRuangan,
-  rotte,
-  webDesign,
   jenisBerasWebp,
+  massbeat,
   massbeatWebp,
+  minimalistPortfolio,
   minimalistPortfolioWebp,
+  modernPortfolio,
   modernPortfolioWebp,
+  pinjamRuangan,
   pinjamRuanganWebp,
+  rotte,
   rotteWebp,
-  webDesignWebp
+  webDesign,
+  webDesignWebp,
+  reactKalkulator,
+  reactKalkulatorWebp,
 } from "../assets/img/projects";
+
+// const repos = (selectedRepo) => {
+//   const [repoData, setRepoData] = React.useState([]);
+
+//   const repos = [
+//     "capstone-tim1",
+//     "monchrome-portfolio",
+//     "modern-portfolio",
+//     "peminjaman-ruangan",
+//     "web-design",
+//     "ProjectPD",
+//   ];
+
+//   React.useEffect(() => {
+//     repos.map((repo) => {
+//       fetch(`https://api.github.com/repos/hibatillah/${repo}`)
+//         .then((res) => res.json())
+//         .then((data) => {
+//           setRepoData((prev) => [
+//             ...prev,
+//             {
+//               title: repo,
+//               date: data.updated_at.split("T")[0],
+//             },
+//           ]);
+//         })
+//         .catch((err) => console.log(err));
+//     });
+
+//     console.log("repo", repoData);
+//   }, [repoData]);
+
+//   const selectRepo = (selectedRepo) => {
+//     const result = repoData.find((data) => data.title === selectedRepo);
+//     return result.date;
+//   };
+
+//   return selectRepo;
+// };
 
 const projects = [
   {
@@ -33,7 +74,7 @@ const projects = [
   {
     title: "Monochrome Portfolio",
     desc: "Monochrome minimalist portfolio with responsive and darkmode design.",
-    tag: ["Portfolio", "Personal Web", "Dark Mode", "React JS", "TailwindCSS"],
+    tag: ["Portfolio", "Personal Web", "Dark Mode", "ReactJS", "TailwindCSS"],
     date: "June 5, 2023",
     link: "https://hibatillah-monochromeportfolio.vercel.app",
     image: minimalistPortfolio,
@@ -70,7 +111,7 @@ const projects = [
       "Portfolio",
       "Personal Web",
       "Modern Design",
-      "React JS",
+      "ReactJS",
       "TailwindCSS",
     ],
     date: "March 25, 2023",
@@ -107,6 +148,15 @@ const projects = [
     link: "https://hibatillah.github.io/ProjectPD/",
     image: jenisBeras,
     webp: jenisBerasWebp,
+  },
+  {
+    title: "Simple Calculator React JS",
+    desc: "Create simple calculator using reactjs and tailwindcss.",
+    tag: ["Calculator", "ReactJS", "TailwindCSS"],
+    date: "January 2023",
+    link: "https://hibatillah.github.io/ReactKalkulator/",
+    image: reactKalkulator,
+    webp: reactKalkulatorWebp,
   },
 ];
 
