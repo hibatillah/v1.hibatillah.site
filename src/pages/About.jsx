@@ -48,7 +48,7 @@ const AboutContent = () => {
       {/* first */}
       <m.p variants={text} className="mt-2">
         Hi {"i'm"} <Linkto to="instagram.com/hibat.illah" title="Habib" />, 3rd
-        year student Bachelor of Applied Information Systems at{" "}
+        year student of Bachelor of Applied Information Systems at{" "}
         <Linkto to="pcr.ac.id" title="Polytechnic Caltex Riau" />.
       </m.p>
       {/* second */}
@@ -58,20 +58,20 @@ const AboutContent = () => {
           to="www.google.com/search?q=pekanbaru+indonesia"
           title="Pekanbaru, Indonesia"
         />
-        . Interested, passionate and knowledgeable in web development and love
-        to design. Currently focus on exploring{" "}
+        . Interested, passionate and knowledgeable in frontend development and
+        love to design. Currently focus on exploring{" "}
         <Linkto to="nextjs.org" title="Nextjs" />, styling components using{" "}
-        <Linkto to="tailwindcss.com" title="Tailwindcss" /> and creating 
-        UI Design in <Linkto to="figma.com/@hibatillah" title="Figma" />.
+        <Linkto to="tailwindcss.com" title="Tailwindcss" /> and creating UI
+        Design in <Linkto to="figma.com/@hibatillah" title="Figma" />.
       </m.p>
       {/* third */}
       <m.p variants={text}>
         <a href="mailto:hibatillah21si@mahasiswa.pcr.ac.id" className="link">
-          Contact me
+          Contact
         </a>{" "}
         to collaborate on creating various innovative designs.{" "}
-        <Linkto to="github.com/sponsors/hibatillah" title="Support me" /> in
-        creating another interesting usefull projects.
+        <Linkto to="github.com/sponsors/hibatillah" title="Support" />{" "}
+        to create other interesting projects.
       </m.p>
       {/* cta */}
       <m.button variants={text} className="w-fit mt-3">
