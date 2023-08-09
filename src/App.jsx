@@ -18,9 +18,7 @@ function App() {
       </main>
       <footer className="container py-2.5 flex justify-between items-center text-center md:text-left">
         <span className="text-main-400/50 font-source3 select-none">
-          <a href="https://bit.ly/hibatillahsite_lisence">
-            © {year} Hibatillah Hasanin
-          </a>
+          © {year} Hibatillah Hasanin
         </span>
         <a href="https://github.com/hibatillah/hibatillah.site">
           <BsGithub size={20} className="text-main-400 hover:text-main-300" />
