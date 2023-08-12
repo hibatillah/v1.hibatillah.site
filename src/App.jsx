@@ -21,7 +21,9 @@ function App() {
           © {year} Hibatillah Hasanin
         </span>
         <a href="https://github.com/hibatillah/hibatillah.site">
-          <BsGithub size={20} className="text-main-400 hover:text-main-300" />
+          <abbr title="site source">
+            <BsGithub size={20} className="text-main-400 hover:text-main-300" />
+          </abbr>
         </a>
       </footer>
     </>

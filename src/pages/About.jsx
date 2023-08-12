@@ -70,8 +70,8 @@ const AboutContent = () => {
           Contact
         </a>{" "}
         to collaborate on creating various innovative designs.{" "}
-        <Linkto to="github.com/sponsors/hibatillah" title="Support" />{" "}
-        to create other interesting projects.
+        <Linkto to="github.com/sponsors/hibatillah" title="Support" /> to create
+        other interesting projects.
       </m.p>
       {/* cta */}
       <m.button variants={text} className="w-fit mt-3">
