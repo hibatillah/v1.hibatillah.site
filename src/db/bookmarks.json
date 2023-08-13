@@ -1,0 +1,390 @@
+[
+  {
+    "title": "Bookmarks",
+    "label": "Description",
+    "author": "Hibatillah",
+    "created at": "2023-08-13T19:27:48+07:00"
+  },
+  {
+    "label": "Inspirations",
+    "list": [
+      {
+        "name": "dribble",
+        "url": "https://dribbble.com/"
+      },
+      {
+        "name": "behance",
+        "url": "https://www.behance.net/"
+      },
+      {
+        "name": "darkmodedesign",
+        "url": "https://darkmodedesign.com/"
+      },
+      {
+        "name": "awwwards",
+        "url": "https://www.awwwards.com/"
+      },
+      {
+        "name": "savee it",
+        "url": "https://savee.it/"
+      },
+      {
+        "name": "freepik",
+        "url": "https://www.freepik.com/"
+      },
+      {
+        "name": "movlabs",
+        "url": "https://movlabs.com/"
+      },
+      {
+        "name": "kyler",
+        "url": "https://kyler.design"
+      },
+      {
+        "name": "spotlight tailwindui",
+        "url": "https://spotlight.tailwindui.com"
+      },
+      {
+        "name": "dwinawan",
+        "url": "https://dwinawan.com/"
+      },
+      {
+        "name": "antfu",
+        "url": "https://antfu.me"
+      },
+      {
+        "name": "weekendlabs",
+        "url": "https://www.weekendlabs.net"
+      },
+      {
+        "name": "reinhard kevin",
+        "url": "https://www.reinhardkevin.xyz"
+      }
+    ]
+  },
+  {
+    "label": "Icons",
+    "list": [
+      {
+        "name": "React Icons",
+        "url": "https://react-icons.github.io/react-icons/"
+      },
+      {
+        "name": "Font Awesome",
+        "url": "https://fontawesome.com/search"
+      },
+      {
+        "name": "Flaticon",
+        "url": "https://www.flaticon.com/"
+      },
+      {
+        "name": "Hero Icons",
+        "url": "https://heroicons.com/"
+      },
+      {
+        "name": "Bootstrap Icons",
+        "url": "https://icons.getbootstrap.com/"
+      },
+      {
+        "name": "Tabler Icons",
+        "url": "https://tablericons.com/"
+      },
+      {
+        "name": "css gg",
+        "url": "https://css.gg/app"
+      },
+      {
+        "name": "Remix Icons",
+        "url": "https://remixicon.com/"
+      },
+      {
+        "name": "Feather Icons",
+        "url": "https://feathericons.com/"
+      },
+      {
+        "name": "hero icons dev",
+        "url": "https://heroicons.dev/"
+      },
+      {
+        "name": "line icons",
+        "url": "https://lineicons.com/"
+      },
+      {
+        "name": "lord icons",
+        "url": "https://lordicon.com/icons"
+      },
+      {
+        "name": "icons8",
+        "url": "https://icons8.com/icons"
+      },
+      {
+        "name": "fonts google icons",
+        "url": "https://fonts.google.com/icons"
+      },
+      {
+        "name": "iconscout",
+        "url": "https://iconscout.com/"
+      },
+      {
+        "name": "svg repo",
+        "url": "https://www.svgrepo.com/"
+      },
+      {
+        "name": "iconesjs",
+        "url": "https://icones.js.org/"
+      },
+      {
+        "name": "unicorn icons",
+        "url": "https://unicornicons.com/icons"
+      },
+      {
+        "name": "lucide icons",
+        "url": "https://lucide.dev/icons"
+      }
+    ]
+  },
+  {
+    "label": "Illustrations",
+    "list": [
+      {
+        "name": "storyset",
+        "url": "https://storyset.com/"
+      },
+      {
+        "name": "undraw",
+        "url": "https://undraw.co/illustrations"
+      },
+      {
+        "name": "blush design",
+        "url": "https://blush.design/"
+      },
+      {
+        "name": "ouch icons8",
+        "url": "https://icons8.com/illustrations"
+      },
+      {
+        "name": "drawkit",
+        "url": "https://www.drawkit.io/"
+      },
+      {
+        "name": "opendoodles",
+        "url": "https://www.opendoodles.com/"
+      },
+      {
+        "name": "openpeeps",
+        "url": "https://www.openpeeps.com/"
+      },
+      {
+        "name": "sapiens ui8",
+        "url": "https://sapiens.ui8.net/9m5c5w8"
+      }
+    ]
+  },
+  {
+    "label": "Fonts",
+    "list": [
+      {
+        "name": "font share",
+        "url": "https://fontshare.com/"
+      },
+      {
+        "name": "google fonts",
+        "url": "https://fonts.google.com/"
+      },
+      {
+        "name": "fontspace",
+        "url": "https://fontspace.com/"
+      },
+      {
+        "name": "font brief",
+        "url": "https://www.fontbrief.com/"
+      },
+      {
+        "name": "dafont",
+        "url": "https://dafont.com/"
+      },
+      {
+        "name": "font squirrel",
+        "url": "https://fontsquirrel.com/"
+      },
+      {
+        "name": "suva type foundary",
+        "url": "https://www.suvatypefoundry.ee/"
+      }
+    ]
+  },
+  {
+    "label": "Colors",
+    "list": [
+      {
+        "name": "coolors",
+        "url": "https://coolors.co/"
+      },
+      {
+        "name": "color hunt",
+        "url": "https://colorhunt.co/"
+      },
+      {
+        "name": "picular",
+        "url": "https://picular.co/"
+      },
+      {
+        "name": "uicolors",
+        "url": "https://uicolors.co/"
+      },
+      {
+        "name": "huemint",
+        "url": "https://huemint.com/"
+      }
+    ]
+  },
+  {
+    "label": "Patterns",
+    "list": [
+      {
+        "name": "magicpattern",
+        "url": "https://magicpattern.design"
+      },
+      {
+        "name": "paaatterns",
+        "url": "http://paaatterns.com/"
+      },
+      {
+        "name": "tabbied",
+        "url": "https://tabbied.com/"
+      },
+      {
+        "name": "hero patterns",
+        "url": "https://heropatterns.com/"
+      },
+      {
+        "name": "haikei app",
+        "url": "https://app.haikei.app/"
+      },
+      {
+        "name": "super designer",
+        "url": "https://superdesigner.co/tools/patterns"
+      },
+      {
+        "name": "cool background",
+        "url": "https://coolbackgrounds.io/"
+      },
+      {
+        "name": "the pattern library",
+        "url": "https://thepatternlibrary.com/"
+      },
+      {
+        "name": "gradient-morph",
+        "url": "https://gradient-morph.leon.id/"
+      },
+      {
+        "name": "bansal pattern",
+        "url": "https://bansal.io/pattern-css"
+      },
+      {
+        "name": "din pattern",
+        "url": "https://dinpattern.com/"
+      }
+    ]
+  },
+  {
+    "label": "Mockups",
+    "list": [
+      {
+        "name": "artboard studio",
+        "url": "https://artboard.studio/"
+      },
+      {
+        "name": "mockup world",
+        "url": "https://mockupworld.co/"
+      },
+      {
+        "name": "mockups design",
+        "url": "https://mockups-design.com/"
+      },
+      {
+        "name": "previewed",
+        "url": "https://previewed.app/"
+      },
+      {
+        "name": "pixeden",
+        "url": "https://www.pixeden.com/"
+      },
+      {
+        "name": "place it",
+        "url": "https://placeit.net/mockups"
+      },
+      {
+        "name": "pacdora",
+        "url": "https://www.pacdora.com/mockups"
+      }
+    ]
+  },
+  {
+    "label": "3D",
+    "list": [
+      {
+        "name": "spline",
+        "url": "https://spline.design/"
+      },
+      {
+        "name": "3dicons",
+        "url": "https://3dicons.co/"
+      },
+      {
+        "name": "shapefest",
+        "url": "https://www.shapefest.com/"
+      },
+      {
+        "name": "pixcap",
+        "url": "https://pixcap.com/explore/packs"
+      }
+    ]
+  },
+  {
+    "label": "Tools",
+    "list": [
+      {
+        "name": "microcopy",
+        "url": "https://www.microcopy.me"
+      },
+      {
+        "name": "ray.so",
+        "url": "https://ray.so"
+      },
+      {
+        "name": "shots",
+        "url": "https://shots.so"
+      },
+      {
+        "name": "brandfetch",
+        "url": "https://brandfetch.com"
+      },
+      {
+        "name": "world vector logo",
+        "url": "https://worldvectorlogo.com/"
+      },
+      {
+        "name": "uihut",
+        "url": "https://uihut.com/"
+      }
+    ]
+  },
+  {
+    "label": "Blogs",
+    "list": [
+      {
+        "name": "Amazing \"React Libraries\" For Everyone",
+        "url": "https://dev.to/arafat4693/top-react-libraries-for-developers-33gb"
+      },
+      {
+        "name": "16 Libraries You Should Know as a React Developer 💯🔥",
+        "url": "https://javascript.plainenglish.io/16-libraries-you-should-know-as-a-react-developer-c9c595c8d25e"
+      }
+    ]
+  },
+  {
+    "label": "Quotes",
+    "list": [""]
+  }
+]

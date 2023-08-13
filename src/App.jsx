@@ -1,7 +1,7 @@
 import { BsGithub } from "react-icons/bs";
 import { Route, Routes } from "react-router-dom";
 import { Header } from "./components";
-import { About, Error, Projects } from "./pages";
+import { About, Error, Projects, Bookmarks } from "./pages";
 
 function App() {
   const year = new Date().getFullYear();
@@ -9,10 +9,11 @@ function App() {
   return (
     <>
       <Header />
-      <main className="container py-12 min-h-[calc(100dvh-92x)]">
+      <main className="container py-12 min-h-[calc(100dvh-92px)]">
         <Routes>
           <Route index element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/bookmarks" element={<Bookmarks />} />
           <Route path="/*" element={<Error />} />
         </Routes>
       </main>

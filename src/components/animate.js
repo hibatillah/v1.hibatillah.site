@@ -38,3 +38,18 @@ export const card = {
     opacity: 0,
   }
 }
+
+export const list = {
+  hidden: {
+    opacity: 0,
+    x: '-150%',
+  },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 1,
+      ease: 'easeOut',
+    }
+  }
+}
