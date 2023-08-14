@@ -15,7 +15,7 @@
 
 @layer base {
   body {
-    @apply bg-main-950 debug-screens;
+    @apply bg-main-950;
   }
   p {
     @apply text-main-400 font-source3;
