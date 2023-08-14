@@ -10,6 +10,7 @@ const label = [
   "Images",
   "Icons",
   "Illustrations",
+  "3D Assets",
   "Fonts",
   "Colors",
   "Patterns",
@@ -26,7 +27,7 @@ const Bookmarks = () => {
   );
 
   return (
-    <div className="min-h-[calc(100dvh-210px)] space-y-12 xl:px-16 2xl:px-20">
+    <div className="min-h-[calc(100dvh-220px)] space-y-9 xl:px-16 2xl:px-20">
       <m.div
         variants={container}
         initial="hidden"
