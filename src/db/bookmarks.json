@@ -3,38 +3,38 @@
     "title": "Bookmarks",
     "label": "Description",
     "author": "Hibatillah",
-    "created at": "2023-08-13T19:27:48+07:00"
+    "created at": "2023-08-15T15:45:48+07:00"
   },
   {
     "label": "Inspirations",
     "list": [
       {
         "name": "dribble",
-        "url": "https://dribbble.com/"
+        "url": "https://dribbble.com"
       },
       {
         "name": "behance",
-        "url": "https://www.behance.net/"
+        "url": "https://www.behance.net"
       },
       {
         "name": "darkmodedesign",
-        "url": "https://darkmodedesign.com/"
+        "url": "https://darkmodedesign.com"
       },
       {
         "name": "awwwards",
-        "url": "https://www.awwwards.com/"
+        "url": "https://www.awwwards.com"
       },
       {
         "name": "savee it",
-        "url": "https://savee.it/"
+        "url": "https://savee.it"
       },
       {
         "name": "freepik",
-        "url": "https://www.freepik.com/"
+        "url": "https://www.freepik.com"
       },
       {
         "name": "movlabs",
-        "url": "https://movlabs.com/"
+        "url": "https://movlabs.com"
       },
       {
         "name": "kyler",
@@ -46,7 +46,7 @@
       },
       {
         "name": "dwinawan",
-        "url": "https://dwinawan.com/"
+        "url": "https://dwinawan.com"
       },
       {
         "name": "antfu",
@@ -63,11 +63,36 @@
     ]
   },
   {
+    "label": "Images",
+    "list": [
+      {
+        "name": "Unsplash",
+        "url": "https://unsplash.com"
+      },
+      {
+        "name": "Pexels",
+        "url": "https://www.pexels.com"
+      },
+      {
+        "name": "Pixabay",
+        "url": "https://pixabay.com"
+      },
+      {
+        "name": "Burst Shopify",
+        "url": "https://burst.shopify.com"
+      },
+      {
+        "name": "Kaboompics",
+        "url": "https://kaboompics.com"
+      }
+    ]
+  },
+  {
     "label": "Icons",
     "list": [
       {
         "name": "React Icons",
-        "url": "https://react-icons.github.io/react-icons/"
+        "url": "https://react-icons.github.io/react-icons"
       },
       {
         "name": "Font Awesome",
@@ -75,19 +100,19 @@
       },
       {
         "name": "Flaticon",
-        "url": "https://www.flaticon.com/"
+        "url": "https://www.flaticon.com"
       },
       {
         "name": "Hero Icons",
-        "url": "https://heroicons.com/"
+        "url": "https://heroicons.com"
       },
       {
         "name": "Bootstrap Icons",
-        "url": "https://icons.getbootstrap.com/"
+        "url": "https://icons.getbootstrap.com"
       },
       {
         "name": "Tabler Icons",
-        "url": "https://tablericons.com/"
+        "url": "https://tablericons.com"
       },
       {
         "name": "css gg",
@@ -95,19 +120,19 @@
       },
       {
         "name": "Remix Icons",
-        "url": "https://remixicon.com/"
+        "url": "https://remixicon.com"
       },
       {
         "name": "Feather Icons",
-        "url": "https://feathericons.com/"
+        "url": "https://feathericons.com"
       },
       {
         "name": "hero icons dev",
-        "url": "https://heroicons.dev/"
+        "url": "https://heroicons.dev"
       },
       {
         "name": "line icons",
-        "url": "https://lineicons.com/"
+        "url": "https://lineicons.com"
       },
       {
         "name": "lord icons",
@@ -123,15 +148,15 @@
       },
       {
         "name": "iconscout",
-        "url": "https://iconscout.com/"
+        "url": "https://iconscout.com"
       },
       {
         "name": "svg repo",
-        "url": "https://www.svgrepo.com/"
+        "url": "https://www.svgrepo.com"
       },
       {
         "name": "iconesjs",
-        "url": "https://icones.js.org/"
+        "url": "https://icones.js.org"
       },
       {
         "name": "unicorn icons",
@@ -148,7 +173,7 @@
     "list": [
       {
         "name": "storyset",
-        "url": "https://storyset.com/"
+        "url": "https://storyset.com"
       },
       {
         "name": "undraw",
@@ -156,7 +181,7 @@
       },
       {
         "name": "blush design",
-        "url": "https://blush.design/"
+        "url": "https://blush.design"
       },
       {
         "name": "ouch icons8",
@@ -164,19 +189,19 @@
       },
       {
         "name": "drawkit",
-        "url": "https://www.drawkit.io/"
+        "url": "https://www.drawkit.io"
       },
       {
         "name": "opendoodles",
-        "url": "https://www.opendoodles.com/"
+        "url": "https://www.opendoodles.com"
       },
       {
         "name": "openpeeps",
-        "url": "https://www.openpeeps.com/"
+        "url": "https://www.openpeeps.com"
       },
       {
         "name": "sapiens ui8",
-        "url": "https://sapiens.ui8.net/9m5c5w8"
+        "url": "https://sapiens.ui8.net"
       }
     ]
   },
@@ -185,31 +210,31 @@
     "list": [
       {
         "name": "font share",
-        "url": "https://fontshare.com/"
+        "url": "https://fontshare.com"
       },
       {
         "name": "google fonts",
-        "url": "https://fonts.google.com/"
+        "url": "https://fonts.google.com"
       },
       {
         "name": "fontspace",
-        "url": "https://fontspace.com/"
+        "url": "https://fontspace.com"
       },
       {
         "name": "font brief",
-        "url": "https://www.fontbrief.com/"
+        "url": "https://www.fontbrief.com"
       },
       {
         "name": "dafont",
-        "url": "https://dafont.com/"
+        "url": "https://dafont.com"
       },
       {
         "name": "font squirrel",
-        "url": "https://fontsquirrel.com/"
+        "url": "https://fontsquirrel.com"
       },
       {
         "name": "suva type foundary",
-        "url": "https://www.suvatypefoundry.ee/"
+        "url": "https://www.suvatypefoundry.ee"
       }
     ]
   },
@@ -218,23 +243,23 @@
     "list": [
       {
         "name": "coolors",
-        "url": "https://coolors.co/"
+        "url": "https://coolors.co"
       },
       {
         "name": "color hunt",
-        "url": "https://colorhunt.co/"
+        "url": "https://colorhunt.co"
       },
       {
         "name": "picular",
-        "url": "https://picular.co/"
+        "url": "https://picular.co"
       },
       {
         "name": "uicolors",
-        "url": "https://uicolors.co/"
+        "url": "https://uicolors.co"
       },
       {
         "name": "huemint",
-        "url": "https://huemint.com/"
+        "url": "https://huemint.com"
       }
     ]
   },
@@ -247,19 +272,19 @@
       },
       {
         "name": "paaatterns",
-        "url": "http://paaatterns.com/"
+        "url": "http://paaatterns.com"
       },
       {
         "name": "tabbied",
-        "url": "https://tabbied.com/"
+        "url": "https://tabbied.com"
       },
       {
         "name": "hero patterns",
-        "url": "https://heropatterns.com/"
+        "url": "https://heropatterns.com"
       },
       {
         "name": "haikei app",
-        "url": "https://app.haikei.app/"
+        "url": "https://app.haikei.app"
       },
       {
         "name": "super designer",
@@ -267,15 +292,15 @@
       },
       {
         "name": "cool background",
-        "url": "https://coolbackgrounds.io/"
+        "url": "https://coolbackgrounds.io"
       },
       {
         "name": "the pattern library",
-        "url": "https://thepatternlibrary.com/"
+        "url": "https://thepatternlibrary.com"
       },
       {
         "name": "gradient-morph",
-        "url": "https://gradient-morph.leon.id/"
+        "url": "https://gradient-morph.leon.id"
       },
       {
         "name": "bansal pattern",
@@ -283,7 +308,7 @@
       },
       {
         "name": "din pattern",
-        "url": "https://dinpattern.com/"
+        "url": "https://dinpattern.com"
       }
     ]
   },
@@ -292,23 +317,23 @@
     "list": [
       {
         "name": "artboard studio",
-        "url": "https://artboard.studio/"
+        "url": "https://artboard.studio"
       },
       {
         "name": "mockup world",
-        "url": "https://mockupworld.co/"
+        "url": "https://mockupworld.co"
       },
       {
         "name": "mockups design",
-        "url": "https://mockups-design.com/"
+        "url": "https://mockups-design.com"
       },
       {
         "name": "previewed",
-        "url": "https://previewed.app/"
+        "url": "https://previewed.app"
       },
       {
         "name": "pixeden",
-        "url": "https://www.pixeden.com/"
+        "url": "https://www.pixeden.com"
       },
       {
         "name": "place it",
@@ -325,15 +350,15 @@
     "list": [
       {
         "name": "spline",
-        "url": "https://spline.design/"
+        "url": "https://spline.design"
       },
       {
         "name": "3dicons",
-        "url": "https://3dicons.co/"
+        "url": "https://3dicons.co"
       },
       {
         "name": "shapefest",
-        "url": "https://www.shapefest.com/"
+        "url": "https://www.shapefest.com"
       },
       {
         "name": "pixcap",
@@ -362,11 +387,11 @@
       },
       {
         "name": "world vector logo",
-        "url": "https://worldvectorlogo.com/"
+        "url": "https://worldvectorlogo.com"
       },
       {
         "name": "uihut",
-        "url": "https://uihut.com/"
+        "url": "https://uihut.com"
       }
     ]
   },
@@ -385,6 +410,9 @@
   },
   {
     "label": "Quotes",
-    "list": [""]
+    "list": [
+      "\"The best way to predict the future is to create it.\" - Abraham Lincoln",
+      "\"The way a person makes decisions shows how they was in the past and in the future\""
+    ]
   }
 ]

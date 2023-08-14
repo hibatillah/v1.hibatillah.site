@@ -4,6 +4,7 @@ const Header = () => {
   const menu = [
     ["About", "/"],
     ["Projects", "/projects"],
+    // ["Bookmarks", "/bookmarks"],
   ];
 
   return (

@@ -111,7 +111,7 @@ const About = () => {
                 <a
                   href={
                     item.title !== "Email"
-                      ? `https://${item.link}`
+                      ? item.link
                       : `mailto:${item.link}`
                   }
                   className="socials-link">
