@@ -18,8 +18,8 @@ function App() {
         </Routes>
       </main>
       <footer className="container py-2.5 flex justify-between items-center text-center md:text-left">
-        <span className="text-main-400/50 font-source3 select-none">
-          © {year} Hibatillah Hasanin
+        <span className="text-main-400/50 font-source3 select-none sm:text-sm">
+          © {year} M. Hibatillah Hasanin
         </span>
         <a href="https://github.com/hibatillah/hibatillah.site">
           <abbr title="site source">

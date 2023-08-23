@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import clsx from "clsx";
 import { motion as m } from "framer-motion";
 import React from "react";
@@ -22,6 +21,7 @@ const label = [
 
 const Bookmarks = () => {
   const [activeLabel, setActiveLabel] = React.useState(label[0]);
+
   const filteredBookmarks = bookmarks.find(
     (bookmark) => bookmark.label.toLowerCase() === activeLabel.toLowerCase()
   );
@@ -60,7 +60,7 @@ const Bookmarks = () => {
         <m.ul
           variants={list}
           className="flex-none w-4/5 max-h-[350px] mx-auto flex flex-col flex-wrap gap-2 md:mx-0 md:w-80 md:mt-6">
-          {filteredBookmarks.list.map((item, index) => (
+          {filteredBookmarks?.list?.map((item, index) => (
             <li key={index}>
               {filteredBookmarks.label !== "Quotes" ? (
                 <a href={item.url} className="link">

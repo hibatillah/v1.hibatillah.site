@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import signature from "../assets/img/signature.png";
 
 const Header = () => {
   const menu = [
@@ -11,9 +12,9 @@ const Header = () => {
     <header className="container py-3 flex justify-between items-center">
       <a
         href="/"
-        target="_parent"
+        target="_top"
         className="text-white font-semibold font-poppins">
-        Habib
+        <img src={signature} alt="hibatillah.site signature" className="w-auto h-6" />
       </a>
       <nav className="flex items-center gap-6 font-source3">
         {menu.map(([item, path], index) => (

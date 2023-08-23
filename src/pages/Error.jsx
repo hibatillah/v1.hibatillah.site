@@ -12,7 +12,7 @@ const Error = () => {
         className="flex flex-col items-center">
         <m.h1 variants={text}>Page Not Found</m.h1>
         <m.p variants={text} className="mt-1 mb-5">
-          something you're looking for not found
+          something {"you're"} looking for not found
         </m.p>
         <Link to="/">
           <m.button

@@ -110,9 +110,7 @@ const About = () => {
               <li key={index} className="relative">
                 <a
                   href={
-                    item.title !== "Email"
-                      ? item.link
-                      : `mailto:${item.link}`
+                    item.title !== "Email" ? item.link : `mailto:${item.link}`
                   }
                   className="socials-link">
                   {icons[item.title.toLowerCase()]}

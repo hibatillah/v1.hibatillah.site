@@ -1,8 +1,15 @@
-/** @type {import('tailwindcss').Config} */
+/* eslint-disable no-undef */
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./index.html"
+  ],
   theme: {
+    body: (theme) => ({
+      backgroundColor: theme("colors.main.950"),
+    }),
     container: {
       center: true,
       padding: {
@@ -17,8 +24,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        source3: ["Source Sans 3", "sans-serif"],
+        poppins: ["Poppins", ...defaultTheme.fontFamily.serif],
+        source3: ["Source Sans 3", ...defaultTheme.fontFamily.serif],
       },
       colors: {
         main: {
