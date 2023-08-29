@@ -45,15 +45,16 @@ const Bookmarks = () => {
           variants={list}
           className="flex-none flex flex-wrap justify-center md:block">
           {label.map((item, index) => (
-            <li
-              key={index}
-              onClick={() => setActiveLabel(item)}
-              className={clsx({
-                "px-3 py-1.5 w-fit rounded-md text-medium cursor-pointer": true,
-                "text-main-200 bg-main-800": activeLabel === item,
-                "text-main-400 hover:text-main-300": activeLabel !== item,
-              })}>
+            <li key={index}>
+              <button
+                onClick={() => setActiveLabel(item)}
+                className={clsx({
+                  "px-3 py-1.5 w-fit rounded-md text-medium cursor-pointer": true,
+                  "text-main-200 bg-main-800": activeLabel === item,
+                  "text-main-400 hover:text-main-300": activeLabel !== item,
+                })}>
               {item}
+              </button>
             </li>
           ))}
         </m.ul>

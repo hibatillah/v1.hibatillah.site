@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "npm",
+            "name": "dev",
+            "command": "run",
+            "scripts": "dev",
+        },
+        {
+            "type": "npm",
+            "name": "build",
+            "command": "run",
+            "scripts": "build",
+        },
+        {
+            "type": "npm",
+            "name": "preview",
+            "command": "run",
+            "scripts": "preview",
+        },
+        {
+            "type": "npm",
+            "name": "install",
+            "command": "",
+            "scripts": "install",
+        },
+        
+    ]
+}

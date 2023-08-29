@@ -25,7 +25,8 @@ export const ProjectCard = ({ image, webp, title, date, desc, tag, link }) => {
         <span className="absolute top-3 right-[3px] w-0.5 lg:h-52 bg-main-500 z-0" />
       </m.div>
       <Link to={link}>
-        <m.div
+        <abbr title={title}>
+          <m.div
           variants={card}
           className="flex flex-col gap-4 hover:card cursor-pointer md:flex-auto md:flex-row md:justify-end md:items-center md:gap-6 lg:flex-auto lg:gap-8 group">
           <Image
@@ -37,8 +38,8 @@ export const ProjectCard = ({ image, webp, title, date, desc, tag, link }) => {
           />
           <div className="md:w-2/3 2xl:w-2/3">
             <p className="text-sm lg:hidden">{date}</p>
-            <div className="my-1 flex gap-1.5 items-center">
-              <h2 className="line-clamp-1 select-all">{title}</h2>
+            <div className="my-1 flex gap-1.5 items-start md:items-center">
+              <h2 className="line-clamp-2 select-all md:line-clamp-1">{title}</h2>
               <FiArrowUpRight
                 size={20}
                 className="text-main-400 group-hover:text-white"
@@ -54,6 +55,7 @@ export const ProjectCard = ({ image, webp, title, date, desc, tag, link }) => {
             </ul>
           </div>
         </m.div>
+        </abbr>
       </Link>
     </div>
   );
