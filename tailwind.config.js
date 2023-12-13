@@ -24,8 +24,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        poppins: ["Poppins", ...defaultTheme.fontFamily.serif],
-        source3: ["Source Sans 3", ...defaultTheme.fontFamily.serif],
+        poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
+        source3: ["Source Sans 3", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         main: {
