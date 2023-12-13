@@ -14,9 +14,8 @@ const Header = () => {
         href="/"
         target="_top"
         className="text-white font-semibold font-poppins">
-          <div
-          className="w-8 h-8 p-1 mb-4 rounded-lg bg-main-600">
-          <div className="w-full h-full rounded-md bg-main-200" />
+        <div className="w-7 h-7 p-1 rounded-md bg-main-600">
+          <div className="w-full h-full rounded bg-main-200" />
         </div>
         {/* <img src={signature} alt="hibatillah.site signature" className="w-auto h-6" /> */}
       </a>
