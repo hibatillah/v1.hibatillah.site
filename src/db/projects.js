@@ -17,46 +17,78 @@ import {
   reactKalkulatorWebp,
 } from "../assets/img/projects";
 
-// const repos = (selectedRepo) => {
-//   const [repoData, setRepoData] = React.useState([]);
+/*
+const repos = (selectedRepo) => {
+  const [repoData, setRepoData] = React.useState([]);
 
-//   const repos = [
-//     "capstone-tim1",
-//     "monchrome-portfolio",
-//     "modern-portfolio",
-//     "peminjaman-ruangan",
-//     "web-design",
-//     "ProjectPD",
-//   ];
+  const repos = [
+    "capstone-tim1",
+    "monchrome-portfolio",
+    "modern-portfolio",
+    "peminjaman-ruangan",
+    "web-design",
+    "ProjectPD",
+  ];
 
-//   React.useEffect(() => {
-//     repos.map((repo) => {
-//       fetch(`https://api.github.com/repos/hibatillah/${repo}`)
-//         .then((res) => res.json())
-//         .then((data) => {
-//           setRepoData((prev) => [
-//             ...prev,
-//             {
-//               title: repo,
-//               date: data.updated_at.split("T")[0],
-//             },
-//           ]);
-//         })
-//         .catch((err) => console.log(err));
-//     });
+  React.useEffect(() => {
+    repos.map((repo) => {
+      fetch(`https://api.github.com/repos/hibatillah/${repo}`)
+        .then((res) => res.json())
+        .then((data) => {
+          setRepoData((prev) => [
+            ...prev,
+            {
+              title: repo,
+              date: data.updated_at.split("T")[0],
+            },
+          ]);
+        })
+        .catch((err) => console.log(err));
+    });
 
-//     console.log("repo", repoData);
-//   }, [repoData]);
+    console.log("repo", repoData);
+  }, [repoData]);
 
-//   const selectRepo = (selectedRepo) => {
-//     const result = repoData.find((data) => data.title === selectedRepo);
-//     return result.date;
-//   };
+  const selectRepo = (selectedRepo) => {
+    const result = repoData.find((data) => data.title === selectedRepo);
+    return result.date;
+  };
 
-//   return selectRepo;
-// };
+  return selectRepo;
+};
+*/
 
 const projects = [
+  /* 
+  {
+    title: "Ekolog App - Aplikasi Pelaporan Bencana Alam",
+    desc: "5th semester project for Mobile Programming and Data Science courses. Provides an Android application to report a disaster and identify the level of disaster damage using data science",
+    tag: [
+      "Mobile Programming",
+      "Data Science",
+      "Android App",
+      "Life on Land SDGs 15th",
+    ],
+    date: "December 07, 2024",
+    link: "https://github.com/hibatillah/ekolog-app",
+    image: rotte,
+    webp: rotteWebp,
+  },
+  {
+    title: "Supply Chain System for Indogrosir Partners and Redesign Indogrosir Website",
+    desc: "5th semester project for Framework Enterprise courses. Providing a supply chain management web system for Indogrosir and each of its partners, as well as redesigning the Indogrosir website to be more attractive and comfortable to use while still providing various information related to Indogrosir.",
+    tag: [
+      "Framework Enterprise",
+      "Supply Chain Management",
+      "Redesign Website",
+      "AS.NET MVC",
+    ],
+    date: "December 24, 2023",
+    link: "https://github.com/hibatillah/indogrosir-scm",
+    image: rotte,
+    webp: rotteWebp,
+  },
+  */
   {
     title: "Supply Chain System Study Case Rotte Bakery",
     desc: "4th semester project for supply chain management, data visualization, and framework programming courses. Provide supply chain management web system for each stakeholder, as well as visualization of historical data owned.",

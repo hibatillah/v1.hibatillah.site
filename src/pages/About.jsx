@@ -28,51 +28,38 @@ const icons = {
   discord: <BsDiscord size={16} />,
 };
 
-const Linkto = ({ title, to }) => {
-  return (
-    <a href={`https://${to}`} className="link">
-      {title}
-    </a>
-  );
-};
+const Linkto = ({ title, to }) => <a href={`https://${to}`} className="link">{title}</a>
 
 const AboutContent = () => {
   return (
     <>
-      <m.div
-        variants={text}
-        className="w-12 h-12 p-1.5 mb-4 rounded-lg bg-main-600">
-        <div className="w-full h-full rounded-md bg-main-200" />
-      </m.div>
       <m.h1 variants={text}>M. Hibatillah Hasanin</m.h1>
+
       {/* first */}
       <m.p variants={text} className="mt-2">
-        Hi {"i'm"} <Linkto to="instagram.com/hibat.illah" title="Habib" />, 3rd
-        year student of Bachelor Applied Information Systems at{" "}
+        Hi {"i'm"} <Linkto to="linkedin.com/in/hibatillahhabib/" title="Habib" />, 3rd
+        year student Bachelor of Applied Science in Information Systems at{" "}
         <Linkto to="pcr.ac.id" title="Politeknik Caltex Riau" />.
       </m.p>
+
       {/* second */}
       <m.p variants={text}>
         UI Designer • Frontend Developer in{" "}
-        <Linkto
-          to="www.google.com/search?q=pekanbaru+indonesia"
-          title="Pekanbaru, Indonesia"
-        />
-        . Interested, passionate and knowledgeable in frontend development and
-        love to design. Currently focus on exploring{" "}
+        <Linkto to="www.google.com/search?q=pekanbaru+indonesia" title="Pekanbaru, Indonesia" />
+        . Interested, passionate and knowledgeable in frontend development and love to design. Currently focus on exploring{" "}
         <Linkto to="nextjs.org" title="Nextjs" />, styling components using{" "}
-        <Linkto to="tailwindcss.com" title="Tailwindcss" /> and creating UI
-        Design in <Linkto to="figma.com/@hibatillah" title="Figma" />.
+        <Linkto to="tailwindcss.com" title="Tailwindcss" />, creating UI Design in{" "}
+        <Linkto to="figma.com/@hibatillah" title="Figma" /> and dive into the internet with{" "}
+        <Linkto to="arc.net" title="Arc" />.
       </m.p>
+
       {/* third */}
       <m.p variants={text}>
-        <a href="mailto:hibatillah21si@mahasiswa.pcr.ac.id" className="link">
-          Contact
-        </a>{" "}
+        <a href="mailto:hibatillah21si@mahasiswa.pcr.ac.id" className="link">Contact me</a>{" "}
         to collaborate on creating various innovative designs.{" "}
-        <Linkto to="github.com/sponsors/hibatillah" title="Support" /> to create
-        other interesting projects.
+        <Linkto to="github.com/sponsors/hibatillah" title="Support" /> to create other interesting projects.
       </m.p>
+
       {/* cta */}
       <m.button variants={text} className="w-fit mt-3">
         <a href="https://read.cv/hibatillah" className="socials-link">
@@ -109,9 +96,7 @@ const About = () => {
             {socials.map((item, index) => (
               <li key={index} className="relative">
                 <a
-                  href={
-                    item.title !== "Email" ? item.link : `mailto:${item.link}`
-                  }
+                  href={item.title !== "Email" ? item.link : `mailto:${item.link}`}
                   className="socials-link">
                   {icons[item.title.toLowerCase()]}
                   {item.title}
