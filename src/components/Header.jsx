@@ -14,11 +14,10 @@ const Header = () => {
         href="/"
         target="_top"
         className="text-white font-semibold font-poppins">
-        <m.div
-          variants={text}
+          <div
           className="w-8 h-8 p-1 mb-4 rounded-lg bg-main-600">
           <div className="w-full h-full rounded-md bg-main-200" />
-        </m.div>
+        </div>
         {/* <img src={signature} alt="hibatillah.site signature" className="w-auto h-6" /> */}
       </a>
       <nav className="flex items-center gap-6 font-source3">

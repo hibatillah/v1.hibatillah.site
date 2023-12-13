@@ -28,7 +28,11 @@ const icons = {
   discord: <BsDiscord size={16} />,
 };
 
-const Linkto = ({ title, to }) => <a href={`https://${to}`} className="link">{title}</a>
+const Linkto = ({ title, to }) => {
+  return (
+    <a href={`https://${to}`} className="link">{title}</a>
+  )
+}
 
 const AboutContent = () => {
   return (
