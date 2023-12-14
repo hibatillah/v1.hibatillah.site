@@ -1,6 +1,7 @@
 ## Personal website
 
-[Instagram](https://instagram.com/hibat.illah) | [Visit website here](https://hibatillah.site)
+**M. Hibiatillah Hasanin** <br/>
+[Visit website here](https://hibatillah.site) | [Instagram](https://instagram.com/hibat.illah)
 
 Tech stack:
 - React v18.2.0

@@ -64,7 +64,7 @@ const repos = (selectedRepo) => {
 
 const projects = [
   {
-    title: "Ekolog App - Aplikasi Pelaporan Bencana Alam",
+    title: "Ekolog App - Natural Disaster Reporting App",
     desc: "5th semester project for Mobile Programming and Data Science courses. Provides an Android application to report a disaster and identify the level of disaster damage using data science",
     tag: [
       "Mobile Programming",
@@ -145,15 +145,6 @@ const projects = [
     webp: pinjamRuanganWebp,
   },
   {
-    title: "Web Design Collection",
-    desc: "Create collection of various innovative web designs.",
-    tag: ["Web Design", "UI/UX", "TailwindCSS"],
-    date: "March 28, 2023",
-    link: "https://github.com/hibatillah/web-design",
-    image: webDesign,
-    webp: webDesignWebp,
-  },
-  {
     title: "Modern Portfolio",
     desc: "Personal portfolio with modern and responsive design.",
     tag: [
@@ -182,6 +173,15 @@ const projects = [
     link: "https://hibatillah.github.io/ProjectPD/",
     image: jenisBeras,
     webp: jenisBerasWebp,
+  },
+  {
+    title: "Web Design Collection",
+    desc: "Create collection of various innovative web designs.",
+    tag: ["Web Design", "UI/UX", "TailwindCSS"],
+    date: "January 2023",
+    link: "https://github.com/hibatillah/web-design",
+    image: webDesign,
+    webp: webDesignWebp,
   },
   {
     title: "Simple Calculator React JS",
