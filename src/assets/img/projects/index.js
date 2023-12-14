@@ -14,6 +14,10 @@ import modernPortfolioWebp from "./webp/modern-portfolio.webp";
 import pinjamRuanganWebp from "./webp/pinjam-ruangan.webp";
 import rotteWebp from "./webp/rotte.webp";
 import webDesignWebp from "./webp/web-design.webp";
+import ekolog from "./base/ekolog.jpg"
+import ekologWebp from "./webp/ekolog.webp"
+import indogrosir from "./base/indogrosir.jpg"
+import indogrosirWebp from "./webp/indogrosir.webp"
 
 export {
   jenisBeras,
@@ -32,4 +36,8 @@ export {
   rotteWebp,
   webDesign,
   webDesignWebp,
+  ekolog,
+  ekologWebp,
+  indogrosir,
+  indogrosirWebp,
 };

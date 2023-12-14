@@ -15,6 +15,10 @@ import {
   webDesignWebp,
   reactKalkulator,
   reactKalkulatorWebp,
+  ekolog,
+  ekologWebp,
+  indogrosir,
+  indogrosirWebp,
 } from "../assets/img/projects";
 
 /*
@@ -59,7 +63,6 @@ const repos = (selectedRepo) => {
 */
 
 const projects = [
-  /* 
   {
     title: "Ekolog App - Aplikasi Pelaporan Bencana Alam",
     desc: "5th semester project for Mobile Programming and Data Science courses. Provides an Android application to report a disaster and identify the level of disaster damage using data science",
@@ -69,10 +72,10 @@ const projects = [
       "Android App",
       "Life on Land SDGs 15th",
     ],
-    date: "December 07, 2024",
+    date: "On Progress",
     link: "https://github.com/hibatillah/ekolog-app",
-    image: rotte,
-    webp: rotteWebp,
+    image: ekolog,
+    webp: ekologWebp,
   },
   {
     title: "Supply Chain System for Indogrosir Partners and Redesign Indogrosir Website",
@@ -83,12 +86,11 @@ const projects = [
       "Redesign Website",
       "AS.NET MVC",
     ],
-    date: "December 24, 2023",
+    date: "On Progress",
     link: "https://github.com/hibatillah/indogrosir-scm",
-    image: rotte,
-    webp: rotteWebp,
+    image: indogrosir,
+    webp: indogrosirWebp,
   },
-  */
   {
     title: "Supply Chain System Study Case Rotte Bakery",
     desc: "4th semester project for supply chain management, data visualization, and framework programming courses. Provide supply chain management web system for each stakeholder, as well as visualization of historical data owned.",
