@@ -23,20 +23,36 @@
         "url": "https://savee.it"
       },
       {
-        "name": "freepik",
-        "url": "https://www.freepik.com"
+        "name": "refero design",
+        "url": "https://refero.design"
       },
       {
-        "name": "movlabs",
-        "url": "https://movlabs.com"
+        "name": "curated design",
+        "url": "https://curated.design"
       },
       {
-        "name": "kyler",
-        "url": "https://kyler.design"
+        "name": "morvalabs",
+        "url": "https://morvalabs.com/"
+      },
+      {
+        "name": "cofolios",
+        "url": "https://www.cofolios.com/"
+      },
+      {
+        "name": "brandfetch",
+        "url": "https://brandfetch.com/"
       },
       {
         "name": "spotlight tailwindui",
         "url": "https://spotlight.tailwindui.com"
+      },
+      {
+        "name": "adeivan",
+        "url": "https://incognito-new-adeivan.vercel.app/"
+      },
+      {
+        "name": "kyler",
+        "url": "https://kyler.design"
       },
       {
         "name": "dwinawan",
@@ -53,6 +69,10 @@
       {
         "name": "reinhard kevin",
         "url": "https://www.reinhardkevin.xyz"
+      },
+      {
+        "name": "briandito",
+        "url": "https://www.briandito.co/"
       }
     ]
   },

@@ -35,8 +35,12 @@ const AboutContent = () => {
     <>
       <m.h1 variants={text}>M. Hibatillah Hasanin</m.h1>
 
+      <m.p variants={text} className="my-2 font-medium text-main-300">
+        Frontend Developer • UI Designer • Information Systems
+      </m.p>
+
       {/* first */}
-      <m.p variants={text} className="mt-2">
+      <m.p variants={text}>
         Hi {"i'm"} <Linkto to="linkedin.com/in/hibatillahhabib/" title="Habib" />, 3rd
         year student Bachelor of Applied Science in Information Systems at{" "}
         <Linkto to="pcr.ac.id" title="Politeknik Caltex Riau" />.
@@ -44,12 +48,10 @@ const AboutContent = () => {
 
       {/* second */}
       <m.p variants={text}>
-        UI Designer • Frontend Developer in{" "}
-        <Linkto to="www.google.com/search?q=pekanbaru+indonesia" title="Pekanbaru, Indonesia" />
-        . Interested, passionate and knowledgeable in frontend development and love to design. Currently focus on exploring{" "}
+        Interested, passionate and knowledgeable in frontend development and love to design. Focus on exploring{" "}
         <Linkto to="nextjs.org" title="Nextjs" />, styling components using{" "}
         <Linkto to="tailwindcss.com" title="Tailwindcss" />, creating UI Design in{" "}
-        <Linkto to="figma.com/@hibatillah" title="Figma" /> and dive into the internet with{" "}
+        <Linkto to="figma.com/@hibatillah" title="Figma" /> and browse the internet with{" "}
         <Linkto to="arc.net" title="Arc" />.
       </m.p>
 
