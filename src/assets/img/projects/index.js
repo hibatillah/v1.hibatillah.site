@@ -7,6 +7,7 @@ import reactKalkulator from "./base/react-kalkulator.jpeg";
 import reactKalkulatorWebp from "./webp/react-kalkulator.webp";
 import rotte from "./base/rotte.jpg";
 import webDesign from "./base/web-design.png";
+import noted from "./base/noted.png"
 import massbeatWebp from "./webp/MassBeat.webp";
 import jenisBerasWebp from "./webp/jenis-beras.webp";
 import minimalistPortfolioWebp from "./webp/minimalist-portfolio.webp";
@@ -18,6 +19,7 @@ import ekolog from "./base/ekolog.jpg"
 import ekologWebp from "./webp/ekolog.webp"
 import indogrosir from "./base/indogrosir.jpg"
 import indogrosirWebp from "./webp/indogrosir.webp"
+import notedWebp from "./webp/noted.webp"
 
 export {
   jenisBeras,
@@ -40,4 +42,6 @@ export {
   ekologWebp,
   indogrosir,
   indogrosirWebp,
+  noted,
+  notedWebp,
 };

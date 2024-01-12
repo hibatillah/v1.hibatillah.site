@@ -19,50 +19,25 @@ import {
   ekologWebp,
   indogrosir,
   indogrosirWebp,
+  noted,
+  notedWebp,
 } from "../assets/img/projects";
 
-/*
-const repos = (selectedRepo) => {
-  const [repoData, setRepoData] = React.useState([]);
-
-  const repos = [
-    "capstone-tim1",
-    "monchrome-portfolio",
-    "modern-portfolio",
-    "peminjaman-ruangan",
-    "web-design",
-    "ProjectPD",
-  ];
-
-  React.useEffect(() => {
-    repos.map((repo) => {
-      fetch(`https://api.github.com/repos/hibatillah/${repo}`)
-        .then((res) => res.json())
-        .then((data) => {
-          setRepoData((prev) => [
-            ...prev,
-            {
-              title: repo,
-              date: data.updated_at.split("T")[0],
-            },
-          ]);
-        })
-        .catch((err) => console.log(err));
-    });
-
-    console.log("repo", repoData);
-  }, [repoData]);
-
-  const selectRepo = (selectedRepo) => {
-    const result = repoData.find((data) => data.title === selectedRepo);
-    return result.date;
-  };
-
-  return selectRepo;
-};
-*/
-
 const projects = [
+  {
+    title: "Noted",
+    desc: "Make simple notes, ez use and integrated, with Noted.",
+    tag: [
+      "Notes App",
+      "Next JS",
+      "Next Auth",
+      "Firebase",
+    ],
+    date: "On Progress",
+    link: "https://github.com/hibatillah/noted",
+    image: noted,
+    webp: notedWebp,
+  },
   {
     title: "Ekolog App - Natural Disaster Reporting App",
     desc: "5th semester project for Mobile Programming and Data Science courses. Provides an Android application to report a disaster and identify the level of disaster damage using data science",
@@ -72,7 +47,7 @@ const projects = [
       "Android App",
       "Life on Land SDGs 15th",
     ],
-    date: "On Progress",
+    date: "Januari 8, 2024",
     link: "https://github.com/hibatillah/ekolog-app",
     image: ekolog,
     webp: ekologWebp,
@@ -84,9 +59,9 @@ const projects = [
       "Framework Enterprise",
       "Supply Chain Management",
       "Redesign Website",
-      "AS.NET MVC",
+      "ASP.NET MVC",
     ],
-    date: "On Progress",
+    date: "Januari 8, 2024",
     link: "https://github.com/hibatillah/indogrosir-scm",
     image: indogrosir,
     webp: indogrosirWebp,

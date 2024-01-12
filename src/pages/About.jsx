@@ -36,7 +36,7 @@ const AboutContent = () => {
       <m.h1 variants={text}>M. Hibatillah Hasanin</m.h1>
 
       <m.p variants={text} className="my-2 font-medium text-main-300">
-        Frontend Developer • UI Designer • Information Systems
+        Frontend Developer • UI Designer • CSS Enthusiast
       </m.p>
 
       {/* first */}
