@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { useEffect } from "react";
 import { motion as m } from "framer-motion";
 import {
   BsBehance,
@@ -82,6 +83,10 @@ const AboutContent = () => {
 };
 
 const About = () => {
+  useEffect(() => {
+    document.title = 'Hibatillah';
+  }, []);
+  
   return (
     <div className="w-full min-h-[calc(100dvh-188px)] grid place-items-center lg:px-16">
       <m.div

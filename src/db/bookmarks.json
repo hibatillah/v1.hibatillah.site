@@ -39,10 +39,6 @@
         "url": "https://www.cofolios.com/"
       },
       {
-        "name": "brandfetch",
-        "url": "https://brandfetch.com/"
-      },
-      {
         "name": "spotlight tailwindui",
         "url": "https://spotlight.tailwindui.com"
       },
@@ -384,16 +380,12 @@
     "label": "Tools",
     "list": [
       {
-        "name": "microcopy",
-        "url": "https://www.microcopy.me"
+        "name": "shots.so",
+        "url": "https://shots.so"
       },
       {
         "name": "ray.so",
         "url": "https://ray.so"
-      },
-      {
-        "name": "shots",
-        "url": "https://shots.so"
       },
       {
         "name": "brandfetch",
@@ -402,6 +394,10 @@
       {
         "name": "world vector logo",
         "url": "https://worldvectorlogo.com"
+      },
+      {
+        "name": "microcopy",
+        "url": "https://www.microcopy.me"
       },
       {
         "name": "uihut",

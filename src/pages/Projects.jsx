@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import { motion as m } from "framer-motion";
 import { ProjectCard } from "../components";
 import { container, text } from "../components/animate";
 import { projects } from "../db";
 
 const Projects = () => {
+  useEffect(() => {
+    document.title = 'Projects - Hibatillah';
+  }, []);
+  
   return (
     <div className="2xl:px-20">
       <m.div
