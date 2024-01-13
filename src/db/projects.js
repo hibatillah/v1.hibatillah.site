@@ -43,11 +43,10 @@ const projects = [
     desc: "5th semester project for Mobile Programming and Data Science courses. Provides an Android application to report a disaster and identify the level of disaster damage using data science",
     tag: [
       "Mobile Programming",
-      "Data Science",
       "Android App",
       "Life on Land SDGs 15th",
     ],
-    date: "Januari 8, 2024",
+    date: "January 8, 2024",
     link: "https://github.com/hibatillah/ekolog-app",
     image: ekolog,
     webp: ekologWebp,
@@ -61,7 +60,7 @@ const projects = [
       "Redesign Website",
       "ASP.NET MVC",
     ],
-    date: "Januari 8, 2024",
+    date: "January 8, 2024",
     link: "https://github.com/hibatillah/indogrosir-scm",
     image: indogrosir,
     webp: indogrosirWebp,
@@ -105,7 +104,7 @@ const projects = [
     webp: massbeatWebp,
   },
   {
-    title: "Sistem Informasi Peminjaman Ruangan Kelas",
+    title: "Classroom Loan Information Systems",
     desc: "Classroom lending website with room availability features, room loan forms as well as activity and room borrowing history.",
     tag: [
       "Web Development",
