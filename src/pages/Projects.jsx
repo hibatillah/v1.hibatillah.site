@@ -34,6 +34,7 @@ const Projects = () => {
               tag={item.tag}
               link={item.link}
               webp={item.webp}
+              formatedDate={item.formatedDate}
             />
           </li>
         ))}

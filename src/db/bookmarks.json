@@ -409,20 +409,33 @@
     "label": "Blogs",
     "list": [
       {
-        "name": "Amazing \"React Libraries\" For Everyone",
-        "url": "https://dev.to/arafat4693/top-react-libraries-for-developers-33gb"
+        "name": "30 Practical Tips for Effective User Interface Design",
+        "url": "https://medium.com/ux-planet/30-practical-tips-for-effective-user-interface-design-59e1e46ac370"
+      },
+      {
+        "name": "17 Killer Websites for Web Developers",
+        "url": "https://medium.com/javascript-in-plain-english/17-killer-websites-for-web-developers-13e1e30345b8"
       },
       {
         "name": "16 Libraries You Should Know as a React Developer 💯🔥",
         "url": "https://javascript.plainenglish.io/16-libraries-you-should-know-as-a-react-developer-c9c595c8d25e"
+      },
+      {
+        "name": "7 Shorthand Optimization Tricks every JavaScript Developer Should Know 😎",
+        "url": "https://medium.com/@tapajyoti-bose/7-shorthand-optimization-tricks-every-javascript-developer-should-know-bf4e136d4497"
+      },
+      {
+        "name": "Amazing \"React Libraries\" For Everyone",
+        "url": "https://dev.to/arafat4693/top-react-libraries-for-developers-33gb"
       }
     ]
   },
   {
     "label": "Quotes",
     "list": [
-      "\"The best way to predict the future is to create it.\" - Abraham Lincoln",
-      "\"The way a person makes decisions shows how they was in the past and in the future\""
+      "\"The best way to predict the future is to create it\" - Abraham Lincoln",
+      "\"The way a person makes decisions shows how they was in the past and in the future\"",
+      "\"There is a time to come, there is a time to go. When it comes as ours, just enjoy it. When leaving, released\" - Dwi Sasono"
     ]
   }
 ]

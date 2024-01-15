@@ -16,7 +16,7 @@ const Header = () => {
         <div className="w-7 h-7 p-1 rounded-md bg-main-600">
           <div className="w-full h-full rounded bg-main-200" />
         </div>
-        <p className="text-main-200">Habib</p>
+        <p className="hidden sm:block text-main-200">Habib</p>
       </a>
       <nav className="flex items-center gap-8 font-source3">
         {menu.map(([item, path], index) => (

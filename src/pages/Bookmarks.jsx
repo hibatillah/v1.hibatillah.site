@@ -69,10 +69,10 @@ const Bookmarks = () => {
             <li key={index}>
               {filteredBookmarks.label !== "Quotes" ? (
                 <a href={item.url} className="link">
-                  <abbr title={item.url.split('//')[1]}>{item.name.toLowerCase()}</abbr>
+                  <abbr title={item.url.split('//')[1]} className="capitalize">{item.name}</abbr>
                 </a>
               ) : (
-                <span className="text-main-300 hover:text-main-100">{item}</span>
+                <blockquote className="text-main-300 hover:text-main-100 select-all cursor-default">{item}</blockquote>
               )}
             </li>
           ))}

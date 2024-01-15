@@ -2,6 +2,7 @@ import { BsGithub } from "react-icons/bs";
 import { Route, Routes } from "react-router-dom";
 import { Header } from "./components";
 import { About, Error, Projects, Bookmarks } from "./pages";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   const year = new Date().getFullYear();
@@ -27,6 +28,7 @@ function App() {
           </abbr>
         </a>
       </footer>
+      <SpeedInsights />
     </>
   );
 }
