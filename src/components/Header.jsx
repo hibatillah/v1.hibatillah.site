@@ -12,11 +12,14 @@ const Header = () => {
       <a
         href="/"
         target="_top"
-        className="flex items-center gap-2 text-white font-semibold font-poppins">
-        <div className="w-7 h-7 p-1 rounded-md bg-main-600">
-          <div className="w-full h-full rounded bg-main-200" />
+        className="flex items-center text-white font-semibold font-poppins group">
+        <div className="w-7 h-7 p-1 flex-none rounded-md bg-main-600 transition-all duration-500 ease-out">
+          <div className="w-full h-full rounded bg-main-200 transition-all duration-500 ease-out" />
         </div>
-        <p className="hidden sm:block text-main-200">Habib</p>
+        <div className="hidden flex-1 sm:flex ps-2 w-20 overflow-hidden text-main-200 *:leading-none">
+          <span className="group-hover:translate-y-10 group-hover:opacity-0 transition-all duration-500 ease-out">Habib</span>
+          <span className="-translate-x-11 -translate-y-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-out">Hibatillah</span>
+        </div>
       </a>
       <nav className="flex items-center gap-8 font-source3">
         {menu.map(([item, path], index) => (
